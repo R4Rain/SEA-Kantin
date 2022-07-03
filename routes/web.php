@@ -16,7 +16,6 @@ use App\Http\Controllers\CanteenController;
 |
 */
 
-Auth::routes();
 Route::get('/home', [HomeController::class, 'index']);
 
 Route::get('/items', [ItemController::class, 'index']);
