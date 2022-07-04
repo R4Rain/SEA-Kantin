@@ -25,6 +25,9 @@ class Item extends Model
             return $query->where('name', 'like', '%' . $search . '%')
                 ->orWhere('description', 'like', '%' . $search . '%');
         });
+        if (!isset($filters['select'])) {
+            return $query->orderBy('created_at', 'DESC');
+        }
         $query->when($filters['select'] ?? false, function ($query, $select) {
             if ($select === 'old') {
                 return $query->orderBy('created_at', 'ASC');
