@@ -7,7 +7,7 @@ use App\Providers\RouteServiceProvider;
 use App\Models\User;
 use App\Rules\IdRule;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Illuminate\Http\Request;
+
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -23,7 +23,12 @@ class RegisterController extends Controller
     | provide this functionality without requiring any additional code.
     |
     */
-
+    public function showRegistrationForm()
+    {
+        return view('auth.register', [
+            'title' => 'Register'
+        ]);
+    }
     use RegistersUsers;
 
     /**
