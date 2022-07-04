@@ -37,7 +37,7 @@ class ItemController extends Controller
     }
     public function showMyItem()
     {
-        return view('myItems', [
+        return view('myitems', [
             'title' => "My Items",
             'items' => Item::where('user_id', '=', auth()->user()->id)->filter(request(['search', 'select']))->paginate(8)->withQueryString()
         ]);
