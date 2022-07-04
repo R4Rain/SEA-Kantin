@@ -66,6 +66,3 @@ Link: `http://sea-kantin.herokuapp.com/`
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Credit
-Idea of this application is originally from COMPFEST SEA task 1.
