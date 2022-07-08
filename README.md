@@ -5,7 +5,7 @@ SEA Kantin or known as "Kantin Kejujuran" is a website for student to sell and b
 
 ## Application features
 - Login (require student ID and password)
-- Register (require student ID, name, email, password)
+- Register (require student ID, name, email, and password)
 - Logout 
 - Item list (All)
 - User item list
