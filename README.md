@@ -14,7 +14,9 @@ SEA Kantin or known as "Kantin Kejujuran" is a website for student to sell and b
 - Searching and sorting items
 
 ## Student ID unique property
-The student ID must be exactly 5 digits and the last two digits must be equal to the sum of the first three digits. For example: 12306.
+The student ID must be exactly 5 digits and the last two digits must be equal to the sum of the first three digits. 
+
+For example: 12306 (1+2+3 = 6)
 
 ## Steps to run the application
 - Clone the repository on your local storage
