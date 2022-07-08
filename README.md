@@ -1,7 +1,7 @@
 ## SEA Kantin documentation
 
 ## Application description
-SEA Kantin is a website for student to sell and buy items. It consists of some items for sale by students and a box to store all the purchased money. Everyone is free to look around, sell, and buy items there. There is no shopkeeper there so everyone is free to add or withdraw the money in the box.
+SEA Kantin or known as "Kantin Kejujuran" is a website for student to sell and buy items. It consists of some items for sale by students and a box to store all the purchased money. Everyone is free to look around, sell, and buy items there. There is no shopkeeper there so everyone is free to add or withdraw the money in the box.
 
 ## Application features
 - Login / Register / Logout 
