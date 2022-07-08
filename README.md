@@ -4,13 +4,17 @@
 SEA Kantin or known as "Kantin Kejujuran" is a website for student to sell and buy items. It consists of some items for sale by students and a box to store all the purchased money. Everyone is free to look around, sell, and buy items there. There is no shopkeeper there so everyone is free to add or withdraw the money in the box.
 
 ## Application features
-- Login / Register / Logout 
-  Note: The student id must be exactly 5 digits where the last two digits must equal to the sum of the first three digits. 
+- Login (require student ID and password)
+- Register (require student ID, name, email, password)
+- Logout 
 - Item list (All)
 - User item list
 - Create a new item
 - Balance box (add & withdraw)
 - Searching and sorting items
+
+## Student ID unique property
+The student ID must be exactly 5 digits and the last two digits must be equal to the sum of the first three digits.
 
 ## Steps to run the application
 - Clone the repository on your local storage
