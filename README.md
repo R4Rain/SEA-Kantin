@@ -5,6 +5,7 @@ SEA Kantin or known as "Kantin Kejujuran" is a website for student to sell and b
 
 ## Application features
 - Login / Register / Logout 
+  Note: The student id must be exactly 5 digits where the last two digits must equal to the sum of the first three digits. 
 - Item list (All)
 - User item list
 - Create a new item
